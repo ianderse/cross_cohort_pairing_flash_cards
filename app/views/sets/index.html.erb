@@ -1,0 +1,5 @@
+<h1>List of Sets</h1>
+
+<% @sets.each do |set| %>
+  <%= link_to set.name, set_path(set) %>
+<% end %>
